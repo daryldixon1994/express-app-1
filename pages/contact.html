@@ -11,9 +11,23 @@
       <a href="/">Home</a>
       <a href="/about">About</a>
       <a href="/contact">Contact</a>
+      <a href="/register">Register</a>
     </nav>
     <main>
       <h1>This is contact page</h1>
+      <form action="send" method="post">
+        <input type="text" name="fullName" placeholder="Full Name" id="" />
+        <input type="tel" name="phone" placeholder="Phone Number" id="" />
+        <input type="email" name="email" placeholder="Email Address" id="" />
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <button type="submit">Send</button>
+      </form>
     </main>
   </body>
 </html>
